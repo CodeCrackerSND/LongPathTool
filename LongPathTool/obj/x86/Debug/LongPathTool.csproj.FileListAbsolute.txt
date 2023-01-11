@@ -1,0 +1,7 @@
+D:\Projects2021-2022\NET\LongPathTool\LongPathTool\bin\Debug\LongPathTool.exe
+D:\Projects2021-2022\NET\LongPathTool\LongPathTool\bin\Debug\LongPathTool.pdb
+D:\Projects2021-2022\NET\LongPathTool\LongPathTool\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Projects2021-2022\NET\LongPathTool\LongPathTool\obj\x86\Debug\LongPathTool.MainForm.resources
+D:\Projects2021-2022\NET\LongPathTool\LongPathTool\obj\x86\Debug\LongPathTool.csproj.GenerateResource.Cache
+D:\Projects2021-2022\NET\LongPathTool\LongPathTool\obj\x86\Debug\LongPathTool.exe
+D:\Projects2021-2022\NET\LongPathTool\LongPathTool\obj\x86\Debug\LongPathTool.pdb
