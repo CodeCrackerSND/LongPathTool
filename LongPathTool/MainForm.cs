@@ -3,7 +3,8 @@
  * User: Bogdan
  * Date: 12/24/2022
  * Time: 3:28 PM
- * 
+ * How to resize controls dynamically with the form in visual studio(visual basic.net & C#)
+ * https://www.youtube.com/watch?v=4QdecSjIKfM
  * To change this template use Tools | Options | Coding | Edit Standard Headers.
  */
 using System;
@@ -171,7 +172,7 @@ namespace LongPathTool
 				result = true;
 				return result;
 			}
-			catch (Exception exc)
+			catch
 			{
 			}
 			result = false;
@@ -621,7 +622,7 @@ protected bool DeleteFile(string filePath)
 						stack.Push(item);
 					}
 				}
-				catch (PathTooLongException var_6_BE)
+				catch (PathTooLongException pathtolong)
 				{
 					List<string> list3 = LongPath.FindFilesAndDirs("\\\\?\\" + text.Replace(":\\", ":\\\\"));
 					List<string> list4 = LongPath.FindFiles("\\\\?\\" + text.Replace(":\\", ":\\\\"));
@@ -642,7 +643,7 @@ protected bool DeleteFile(string filePath)
 						}
 					}
 				}
-				catch (Exception var_10_19F)
+				catch (Exception exc1)
 				{
 				}
 			}
@@ -761,22 +762,22 @@ protected bool DeleteFile(string filePath)
 				result = false;
 				return result;
 			}
-			catch (ArgumentException var_1_75)
+			catch (ArgumentException arge)
 			{
 			}
-			catch (FileNotFoundException var_2_7A)
+			catch (FileNotFoundException filenotfound)
 			{
 			}
-			catch (PathTooLongException var_3_7F)
+			catch (PathTooLongException pathtolonge)
 			{
 			}
-			catch (IOException var_4_84)
+			catch (IOException ioexc)
 			{
 			}
-			catch (UnauthorizedAccessException var_5_8A)
+			catch (UnauthorizedAccessException unatexc)
 			{
 			}
-			catch (Exception var_6_90)
+			catch (Exception exc)
 			{
 			}
 			result = false;
@@ -900,7 +901,7 @@ protected bool DeleteFile(string filePath)
 				result = true;
 				return result;
 			}
-			catch (Exception var_0_AD)
+			catch (Exception exc2)
 			{
 				try
 				{

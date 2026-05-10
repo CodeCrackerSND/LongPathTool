@@ -62,12 +62,15 @@ namespace LongPathTool
 			// 
 			// tabControl1
 			// 
+			this.tabControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+									| System.Windows.Forms.AnchorStyles.Left) 
+									| System.Windows.Forms.AnchorStyles.Right)));
 			this.tabControl1.Controls.Add(this.tabPage1);
 			this.tabControl1.Controls.Add(this.tabPage2);
-			this.tabControl1.Location = new System.Drawing.Point(12, 12);
+			this.tabControl1.Location = new System.Drawing.Point(0, 0);
 			this.tabControl1.Name = "tabControl1";
 			this.tabControl1.SelectedIndex = 0;
-			this.tabControl1.Size = new System.Drawing.Size(603, 404);
+			this.tabControl1.Size = new System.Drawing.Size(628, 426);
 			this.tabControl1.TabIndex = 0;
 			// 
 			// tabPage1
@@ -76,19 +79,22 @@ namespace LongPathTool
 			this.tabPage1.Location = new System.Drawing.Point(4, 22);
 			this.tabPage1.Name = "tabPage1";
 			this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-			this.tabPage1.Size = new System.Drawing.Size(595, 378);
+			this.tabPage1.Size = new System.Drawing.Size(620, 400);
 			this.tabPage1.TabIndex = 0;
 			this.tabPage1.Text = "Delete/Rename/Copy";
 			this.tabPage1.UseVisualStyleBackColor = true;
 			// 
 			// treeViewFolders
 			// 
+			this.treeViewFolders.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+									| System.Windows.Forms.AnchorStyles.Left) 
+									| System.Windows.Forms.AnchorStyles.Right)));
 			this.treeViewFolders.ImageIndex = 0;
 			this.treeViewFolders.ImageList = this.imageList1;
-			this.treeViewFolders.Location = new System.Drawing.Point(6, 6);
+			this.treeViewFolders.Location = new System.Drawing.Point(3, 3);
 			this.treeViewFolders.Name = "treeViewFolders";
 			this.treeViewFolders.SelectedImageIndex = 0;
-			this.treeViewFolders.Size = new System.Drawing.Size(586, 366);
+			this.treeViewFolders.Size = new System.Drawing.Size(614, 394);
 			this.treeViewFolders.TabIndex = 0;
 			this.treeViewFolders.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.TreeViewFoldersAfterSelect);
 			// 
@@ -118,7 +124,7 @@ namespace LongPathTool
 			this.tabPage2.Location = new System.Drawing.Point(4, 22);
 			this.tabPage2.Name = "tabPage2";
 			this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-			this.tabPage2.Size = new System.Drawing.Size(595, 378);
+			this.tabPage2.Size = new System.Drawing.Size(620, 400);
 			this.tabPage2.TabIndex = 1;
 			this.tabPage2.Text = "Search Long Paths";
 			this.tabPage2.UseVisualStyleBackColor = true;
@@ -135,6 +141,8 @@ namespace LongPathTool
 			// 
 			// labelSearchPath
 			// 
+			this.labelSearchPath.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+									| System.Windows.Forms.AnchorStyles.Right)));
 			this.labelSearchPath.Location = new System.Drawing.Point(6, 33);
 			this.labelSearchPath.Name = "labelSearchPath";
 			this.labelSearchPath.Size = new System.Drawing.Size(407, 28);
@@ -169,9 +177,12 @@ namespace LongPathTool
 			// 
 			// listViewLongPaths
 			// 
+			this.listViewLongPaths.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+									| System.Windows.Forms.AnchorStyles.Left) 
+									| System.Windows.Forms.AnchorStyles.Right)));
 			this.listViewLongPaths.Location = new System.Drawing.Point(6, 64);
 			this.listViewLongPaths.Name = "listViewLongPaths";
-			this.listViewLongPaths.Size = new System.Drawing.Size(583, 308);
+			this.listViewLongPaths.Size = new System.Drawing.Size(583, 330);
 			this.listViewLongPaths.Sorting = System.Windows.Forms.SortOrder.Ascending;
 			this.listViewLongPaths.TabIndex = 0;
 			this.listViewLongPaths.UseCompatibleStateImageBehavior = false;
@@ -179,7 +190,8 @@ namespace LongPathTool
 			// 
 			// progressBarSearch
 			// 
-			this.progressBarSearch.Location = new System.Drawing.Point(441, 422);
+			this.progressBarSearch.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+			this.progressBarSearch.Location = new System.Drawing.Point(441, 432);
 			this.progressBarSearch.Name = "progressBarSearch";
 			this.progressBarSearch.Size = new System.Drawing.Size(100, 23);
 			this.progressBarSearch.TabIndex = 1;
@@ -192,7 +204,8 @@ namespace LongPathTool
 			// 
 			// ButtonDelete
 			// 
-			this.ButtonDelete.Location = new System.Drawing.Point(20, 422);
+			this.ButtonDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+			this.ButtonDelete.Location = new System.Drawing.Point(20, 432);
 			this.ButtonDelete.Name = "ButtonDelete";
 			this.ButtonDelete.Size = new System.Drawing.Size(75, 23);
 			this.ButtonDelete.TabIndex = 2;
@@ -202,7 +215,8 @@ namespace LongPathTool
 			// 
 			// RenameButton
 			// 
-			this.RenameButton.Location = new System.Drawing.Point(101, 422);
+			this.RenameButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+			this.RenameButton.Location = new System.Drawing.Point(101, 432);
 			this.RenameButton.Name = "RenameButton";
 			this.RenameButton.Size = new System.Drawing.Size(75, 23);
 			this.RenameButton.TabIndex = 3;
@@ -212,7 +226,8 @@ namespace LongPathTool
 			// 
 			// CopyToButton
 			// 
-			this.CopyToButton.Location = new System.Drawing.Point(182, 422);
+			this.CopyToButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+			this.CopyToButton.Location = new System.Drawing.Point(182, 432);
 			this.CopyToButton.Name = "CopyToButton";
 			this.CopyToButton.Size = new System.Drawing.Size(75, 23);
 			this.CopyToButton.TabIndex = 4;
@@ -222,7 +237,8 @@ namespace LongPathTool
 			// 
 			// DemoButton
 			// 
-			this.DemoButton.Location = new System.Drawing.Point(263, 422);
+			this.DemoButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+			this.DemoButton.Location = new System.Drawing.Point(263, 432);
 			this.DemoButton.Name = "DemoButton";
 			this.DemoButton.Size = new System.Drawing.Size(75, 23);
 			this.DemoButton.TabIndex = 5;
@@ -234,7 +250,7 @@ namespace LongPathTool
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(620, 457);
+			this.ClientSize = new System.Drawing.Size(628, 467);
 			this.Controls.Add(this.DemoButton);
 			this.Controls.Add(this.CopyToButton);
 			this.Controls.Add(this.RenameButton);
